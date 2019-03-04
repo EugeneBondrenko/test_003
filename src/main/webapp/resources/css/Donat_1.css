@@ -1,0 +1,252 @@
+body {
+    font-family: sans-serif;
+    font-family: cursive;
+}
+
+.headers{
+    height: 95px;
+    padding-bottom: 0px;
+    margin-bottom: 800px;
+
+}
+.container{
+    min-width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+    overflow-x: hidden;
+}
+.menu__search{
+    display: flex;
+    width: 100%;
+    height: 95px;
+    background: linear-gradient(#CEECF5, #58ACFA);
+    overflow: hidden;
+}
+
+.logo_11{
+    height: 100%;
+    width: 100%;
+    background-image: url("/resources/img/logo_3.jpeg");
+    background-repeat: no-repeat;
+    background-size: 85%;
+    background-position-y: -35px;
+    background-position-x: 50px;
+}
+
+.codrops-demos{
+    font-size: 20px;
+    margin-top: 45px;
+    margin-left: 20px;
+
+}
+.codrops-demos a{
+    margin-left: 15px;
+    /*color: black;*/
+    color: white;
+    font-weight: 400;
+}
+.codrops-demos a:hover{
+    text-decoration: none;
+    color: red;
+}
+.codrops-demos a:last-child{
+    margin-left: 50px;
+}
+
+
+
+/* About Us INFO*/
+
+.donat__title{
+    height: 330px;
+    padding-top: 130px;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 600;
+}
+.hr__donat{
+    width: 250px;
+    margin-top: 35px;
+}
+.donations{
+    height: 350px;
+    padding-top: 75px;
+    /*background-image: url("/resources/img/donat_5.png");*/
+    /*background-color: #5C3011;*/
+    /*background: linear-gradient(#5C3011, #3A1D08);*/
+    /*background: linear-gradient(#2F1708, #7F461D);*/
+
+    background: rgba(80,40,0,1);
+    background: -moz-linear-gradient(top, rgba(80,40,0,1) 0%, rgba(80,40,0,1) 0%, rgba(130,70,30,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(80,40,0,1)), color-stop(0%, rgba(80,40,0,1)), color-stop(100%, rgba(130,70,30,1)));
+    background: -webkit-linear-gradient(top, rgba(80,40,0,1) 0%, rgba(80,40,0,1) 0%, rgba(130,70,30,1) 100%);
+    background: -o-linear-gradient(top, rgba(80,40,0,1) 0%, rgba(80,40,0,1) 0%, rgba(130,70,30,1) 100%);
+    background: -ms-linear-gradient(top, rgba(80,40,0,1) 0%, rgba(80,40,0,1) 0%, rgba(130,70,30,1) 100%);
+    background: linear-gradient(to bottom, rgba(80,40,0,1) 0%, rgba(80,40,0,1) 0%, rgba(130,70,30,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#502800', endColorstr='#82461e', GradientType=0 );
+
+
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+    font-size: 32px;
+    font-family: cursive;
+}
+
+.container__info{
+    max-width: 80%;
+    text-align: center;
+    color: #2A0A0A;
+}
+.info__1{
+    text-align: left;
+}
+.container__info h5{
+    color: #08088A;
+}
+.container__info h4{
+    color: crimson;
+}
+
+
+
+
+
+
+/* Footer */
+
+.gradient {
+    width: 100%;
+    height: 400px;
+    background: linear-gradient(183deg, transparent 150px, #81DAF5, #0080FF);
+    color: white;
+}
+
+.gradient p {
+    padding-bottom: 20px;
+    color: white;
+    font-size: 38px;
+    font-family: cursive;
+}
+
+.footers {
+    font-weight: 100;
+    opacity: 0.6;
+    font-size: 16px;
+    color: white;
+}
+.footer__logo{
+    margin-top: 200px;
+    background-image: url("/resources/img/evangeli_logo.png");
+    background-size: 80%;
+    background-repeat: no-repeat;
+    height: 100px;
+    margin-left: 50px;
+}
+
+.footer__menu {
+    margin-top: 200px;
+    margin-left: 95px;
+    line-height: 30px;
+}
+
+.grad__title {
+    font-family: sans-serif;
+    text-align: start;
+    margin-bottom: 20px;
+}
+
+.grad__title h5 {
+    font-weight: 600;
+}
+
+.grad__info {
+    text-align: center;
+    margin-left: -200px;
+}
+
+.grad__info a {
+    font-family: sans-serif;
+    text-align: start;
+    color: white;
+    font-size: 18px;
+}
+
+.grad__info a:hover {
+    text-decoration: none;
+    color: #9fcdff;
+}
+
+.footer__social {
+    margin-top: 232px;
+    margin-left: 140px;
+}
+
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+.social a {
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    float: left;
+    background: #fff;
+    border: 1px solid #ccc;
+    /*box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15), inset 0 0 50px rgba(0, 0, 0, 0.1);*/
+    border-radius: 15px;
+    margin: 0 10px 10px 0;
+    padding: 6px;
+    color: #000;
+}
+
+.youtube {
+    font-size: 13px;
+}
+
+.youtube a:hover {
+    background: #c4302b;
+    color: #fff;
+    font-size: 15px;
+}
+
+.facebook {
+    font-size: 24px;
+    background-color: white;
+}
+
+.facebook a:hover {
+    background: #3b5998;
+    color: #fff;
+    font-size: 28px;
+}
+
+.google-pluse {
+    font-size: 24px;
+}
+
+.google-pluse a:hover {
+    background: #DD4B39;
+    color: #fff;
+    font-size: 28px;
+}
+
+.soc__ingl {
+    margin-left: 120px;
+}
+
+.En {
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 17px;
+    margin-left: 50px;
+}
+
+.En a:hover {
+    background: #3b5998;
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 19px;
+    text-decoration: none;
+}

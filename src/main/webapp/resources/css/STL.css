@@ -1,0 +1,587 @@
+body {
+    font-family: sans-serif;
+    font-family: cursive;
+}
+
+header {
+    /*background: url("/resources/img/Oboi_1.jpg") no-repeat center top / cover;*/
+    /*background: url("/resources/img/Test_2.jpg") no-repeat center top / cover;*/
+    /*height: 100%;*/
+    /*background-attachment: fixed;*/
+}
+
+ul, li {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    line-height: 1.5em;
+    font-family: sans-serif;
+}
+
+.container {
+    /*padding-top: 20px;*/
+    /*padding-bottom: 20px;*/
+    /*height: 100%;*/
+}
+
+.logo {
+    color: white;
+    font-family: cursive;
+    font-weight: 500;
+}
+
+.menu {
+    margin-top: 25px;
+    margin-left: 15px;
+}
+
+.menu__item a {
+    color: white;
+    font-weight: 400;
+    font-size: 18px;
+    margin-left: 20px;
+    font-family: sans-serif;
+}
+
+.menu__item a:hover {
+    text-decoration: none;
+    color: #E0F8F1;
+}
+
+.menu__item:nth-child(5) {
+    margin-left: 30px;
+}
+
+.ofer {
+    margin-top: 170px;
+    font-family: sans-serif;
+}
+
+.ofer_title {
+    color: white;
+}
+
+.ofer_iter {
+    margin-left: 350px;
+    margin-top: 20px;
+    color: #ffeb3b;
+    font-family: sans-serif;
+}
+
+/*  Feature  */
+.features {
+    /*background-color: #9fcdff;*/
+    /*background-color: #A9E2F3;*/
+    /*height: 650px;*/
+    /*background: #E0F2F7;*/
+    /*background: radial-gradient(#E0F2F7, #648880, #1F7D63);*/
+    /*background-color: whitesmoke;*/
+    height: 100%;
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 80px;
+}
+.usMy{
+    height: 110%;
+    width: 100%;
+    background-image: url("/resources/img/usMy_1.jpeg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.border_content {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.border_content {
+    text-align: center;
+}
+
+.feature_logo {
+    font-family: sans-serif;
+    font-size: 28px;
+}
+
+.feature__content {
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.border_content {
+    border: 3px solid black;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 90px 0 30px 0;
+    width: 1000px;
+    height: 450px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.feature_logo {
+    font-size: 50px;
+    font-family: cursive;
+    font-weight: 700;
+    margin-bottom: 30px;
+
+}
+
+.feature__content {
+    font-size: 28px;
+}
+
+
+.col__information {
+    padding-top: 30px;
+    padding-bottom: 90px;
+    /*height: 2400px;*/
+    min-height: 220%;
+    width: 100%;
+}
+
+.border__info__1 {
+    height: 500px;
+    width: 500px;
+    margin-top: 90px;
+    background-image: url("/resources/img/borderInfo.jpg");
+    background-size: 37%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position-y: -225px;
+    margin-left: 130px;
+    background-position-x: 130px;
+    /*border: 4px solid black;*/
+    margin-bottom: 100px;
+;
+
+}
+
+.border__info__2 {
+    width: 500px;
+    height: 500px;
+    max-width: 90%;
+    background-image: url("/resources/img/borderInfo_2.jpeg");
+    background-size: 38%;
+    background-position-y: -330px;
+    background-position-x: 690px;
+    /*border: 4px solid black;*/
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /*margin-bottom: 100px;*/
+}
+
+.content__info__1 {
+    width: 450px;
+    margin-left: 70px;
+    font-family: sans-serif;
+    font-size: 36px;
+    color: black;
+    font-weight: 500;
+    margin-top: 90px;
+    /*margin-bottom: 50px;*/
+    float: right;
+    margin-right: 15%;
+}
+
+.content__info__2 {
+    width: 450px;
+    font-family: sans-serif;
+    font-size: 36px;
+    color: black;
+    font-weight: 500;
+    margin-left: 19%;
+}
+
+.information_content {
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 200;
+    color: #424242;
+    margin-top: 30px;
+}
+
+.bottom {
+    border-radius: 8px;
+    font-size: 18px;
+    font-family: sans-serif;
+    background-color: #F2F2F2;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.bottom a {
+    color: black;
+    transition: all 0.3s ease;
+}
+
+/*CONTACT__US*/
+
+.contact {
+    background-color: #F2F2F2;
+    padding-top: 65px;
+    padding-bottom: 65px;
+    height: 100%;
+    min-height: 650px;
+}
+
+.contact__us {
+    width: 70%;
+    min-width: 300px;
+    padding-bottom: 65px;
+    text-align: center;
+    justify-content: center;
+}
+.contact__title {
+    text-align: center;
+    font-size: 36px;
+}
+
+.contact__text {
+    font-size: 18px;
+    font-family: sans-serif;
+    color: #424242;
+}
+
+hr {
+    /*border: none; !* Убираем границу *!*/
+    width: 80px;
+    background-color: #5882FA; /* Цвет линии */
+    color: #5882FA; /* Цвет линии для IE6-7 */
+    height: 3px; /* Толщина линии */
+}
+.hr_s{
+    justify-content: center;
+}
+
+.contact__info h2 {
+    font-family: sans-serif;
+    font-size: 22px;
+}
+
+.contact__info h3 {
+    font-family: sans-serif;
+    font-size: 16px;
+    color: #424242;
+}
+
+.address {
+    margin-top: 40px;
+}
+
+.address__info {
+    font-family: sans-serif;
+    color: #424242;
+    font-size: 14px;
+}
+
+.form {
+    margin-top: 40px;
+}
+
+.send h3 {
+    font-family: sans-serif;
+    font-size: 22px;
+    color: #424242;
+}
+
+.send__title {
+    font-family: sans-serif;
+    font-size: 22px;
+}
+
+.form__name {
+    width: 300px;
+    height: 40px;
+    border-radius: 3px;
+    /*border: none;*/
+    padding-left: 15px;
+    font-size: 16px;
+    font-family: sans-serif;
+    color: #424242;
+    outline: none;
+}
+
+.form__email {
+    width: 300px;
+    height: 40px;
+    border-radius: 3px;
+    /*border: none;*/
+    padding-left: 15px;
+    font-size: 16px;
+    font-family: sans-serif;
+    color: #424242;
+    outline: none;
+    margin-left: 25px;
+}
+.input_text{
+    display: flex;
+    flex-direction: column;
+
+}
+.form__message {
+    width: 625px;
+    height: 140px;
+    border-radius: 3px;
+    /*border: none;*/
+    padding-left: 15px;
+    font-size: 16px;
+    font-family: sans-serif;
+    color: #424242;
+    vertical-align: top;
+    outline: none;
+
+}
+
+.form__button {
+    height: 40px;
+    width: 100px;
+    background: #5882FA;
+    color: black;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    margin-top: 25px;
+    font-family: sans-serif;
+    float: inherit;
+    /*margin-top: 180px;*/
+
+}
+
+/* Cherch  */
+
+.local__cherch {
+    padding-top: 75px;
+    padding-bottom: 80px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    background-image: url("/resources/img/cityCherch.jpeg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    /*background-position-x: -80px;*/
+    color: white;
+    /*-webkit-text-stroke: 1px black;*/
+    width: 100%;
+    height: 80%;
+    border-radius: 0;
+    /*min-height: 700px;*/
+
+    /*http://css.yoksel.ru/background-blend-mode!*/
+    /*background-color: #848484;*/
+    background-color: #A4A4A4;
+    /*background-color: #151515;*/
+    background-repeat: no-repeat;
+    background-blend-mode: color-burn;
+    border-radius: 6px;
+}
+
+.cherch__info {
+    font-family: sans-serif;
+    font-size: 28px;
+    color: white;
+    text-align: center;
+    margin-top: 70px;
+}
+
+.local__cherh__btn {
+    margin-top: 70px;
+    background: white;
+    border-radius: 7px;
+    padding: 10px;
+    color: black;
+    font-family: sans-serif;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/* Donat */
+.donat {
+    /*width: 100%;*/
+    height: 700px;
+    background-image: url("/resources/img/mount.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 100%;
+    text-align: center;
+}
+
+.donat__title {
+    color: white;
+    margin-bottom: 25px;
+    margin-top: 150px;
+}
+
+.donat__info {
+    color: white;
+    font-family: sans-serif;
+    line-height: 40px;
+    /*margin-bottom: 35px;*/
+}
+
+.local__donat__btn {
+    background: none;
+    border-radius: 7px;
+    padding: 10px;
+    color: white;
+    margin-top: 35px;
+    font-family: sans-serif;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/* Footer */
+
+.gradient {
+    width: 100%;
+    height: 300px;
+    background: #190B07;
+    background: linear-gradient(#BDBDBD, #0080FF);
+
+}
+
+.gradient p {
+    /*margin-top: 180px;*/
+    padding-bottom: 20px;
+    color: white;
+    font-size: 38px;
+    font-family: cursive;
+}
+
+.footers {
+    font-weight: 100;
+    opacity: 0.5;
+    font-size: 16px;
+    color: white;
+}
+.footer__logo{
+    margin-top: 100px;
+    background-image: url("/resources/img/evangeli_logo.png");
+    background-size: 80%;
+    background-repeat: no-repeat;
+    height: 100px;
+    margin-left: 50px;
+    /*background-color: #0A0A2A;*/
+}
+
+.footer__menu {
+    margin-top: 100px;
+    margin-left: 95px;
+    line-height: 30px;
+}
+
+.grad__title {
+    font-family: sans-serif;
+    text-align: start;
+    margin-bottom: 20px;
+}
+
+.grad__title h5 {
+    font-weight: 600;
+}
+
+.grad__info {
+    text-align: center;
+    margin-left: -200px;
+    padding-top: 10px;
+}
+
+.grad__info a {
+    font-family: sans-serif;
+    text-align: start;
+    color: #D8D8D8;
+    font-size: 18px;
+}
+
+.grad__info a:hover {
+    text-decoration: none;
+    color: #9fcdff;
+}
+
+.footer__social {
+    margin-top: 200px;
+    margin-left: 140px;
+}
+
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+.social a {
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    float: left;
+    background: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15), inset 0 0 50px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    margin: 0 10px 10px 0;
+    padding: 6px;
+    color: #000;
+}
+
+.youtube {
+    font-size: 13px;
+}
+
+.youtube a:hover {
+    background: #c4302b;
+    color: #fff;
+    font-size: 15px;
+}
+
+.facebook {
+    font-size: 24px;
+}
+
+.facebook a:hover {
+    background: #3b5998;
+    color: #fff;
+    font-size: 28px;
+}
+
+.google-pluse {
+    font-size: 24px;
+}
+
+.google-pluse a:hover {
+    background: #DD4B39;
+    color: #fff;
+    font-size: 28px;
+}
+
+.soc__ingl {
+    margin-left: 120px;
+}
+
+.En {
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 17px;
+    margin-left: 50px;
+}
+
+.En a:hover {
+    background: #3b5998;
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 19px;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
