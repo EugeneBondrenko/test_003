@@ -1,10 +1,3 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: Zhenya
-  Date: 24.07.2018
-  Time: 14:30
-  To change this template use File | Settings | File Templates.
---%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
@@ -361,7 +354,7 @@
         <div class="row">
             <div class="col-lg-12 d-flex justify-content-center">
                 <h3 class="cherch__info wow fadeInRight" data-wow-duration="2s">
-                    Каждый человек в Доме Божьем обретёт братьев и сестёр, ощутит Любовь Отца и напитается
+                    Каждый человек в Доме Божьем обретёт братьев и сестёр, ощутит Любовь Отца <br> и напитается
                     Хлебом Небесным.<br> Двери церкви всегда открыты — приходи, тут тебя ждут!
                 </h3>
             </div>
