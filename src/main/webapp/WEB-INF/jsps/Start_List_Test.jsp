@@ -135,7 +135,6 @@
 <script type="text/javascript" src="/resources/js/js_/jquery.slitslider.js"></script>
 <script type="text/javascript">
     $(function () {
-
         var Page = (function () {
 
             var $nav = $('#nav-dots > span'),
