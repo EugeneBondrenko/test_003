@@ -87,7 +87,7 @@ h1 {
 .usMy{
     height: 110%;
     width: 100%;
-    background-image: url("/resources/img/usMy_1.jpeg");
+    background-image: url("/resources/img/usMy_3.jpeg");
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
@@ -374,10 +374,10 @@ hr {
 
     /*http://css.yoksel.ru/background-blend-mode!*/
     /*background-color: #848484;*/
-    background-color: #A4A4A4;
+    /*background-color: #A4A4A4;*/
     /*background-color: #151515;*/
     background-repeat: no-repeat;
-    background-blend-mode: color-burn;
+    /*background-blend-mode: color-burn;*/
     border-radius: 6px;
 }
 
