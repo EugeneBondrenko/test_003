@@ -132,7 +132,11 @@
     </div>
 
 </section>
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<%--<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>--%>
+<script
+        src="https://code.jquery.com/jquery-1.8.2.min.js"
+        integrity="sha256-9VTS8JJyxvcUR+v+RTLTsd0ZWbzmafmlzMmeZO9RFyk="
+        crossorigin="anonymous"></script>
 <script type="text/javascript" src="/resources/js/js_/jquery.ba-cond.min.js"></script>
 <script type="text/javascript" src="/resources/js/js_/jquery.slitslider.js"></script>
 <script type="text/javascript">
