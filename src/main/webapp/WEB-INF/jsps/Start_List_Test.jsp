@@ -18,6 +18,8 @@
     <link href="https://fonts.googleapis.com/css?family=Expletus+Sans:400,400i,500,500i,600,600i,700,700i"
           rel="stylesheet">
 
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+
 
     <%--<meta name="viewport" content="width=device-width, initial-scale=1.0">--%>
     <%--<meta name="description" content="Fullscreen Slit Slider with CSS3 and jQuery" />--%>
