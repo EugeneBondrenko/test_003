@@ -238,7 +238,7 @@
                 <div class="content__info__1">
                     <h2>ДЛЯ ЧЕГО УМЕР ХРИСТОС?</h2>
                     <p class="information_content">
-                        Sed ut perspiciatis unde omnis iste natus<br>
+                        Sed perspiciatis unde omnis iste natus<br>
                         error sit voluptatem accusantium<br>
                         aperiam,eaque ipsa quae ab illo inventore<br>
                         vitae dicta sunt explicabo.
