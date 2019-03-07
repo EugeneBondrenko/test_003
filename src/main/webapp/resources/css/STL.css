@@ -87,7 +87,7 @@ h1 {
 .usMy{
     height: 110%;
     width: 100%;
-    background-image: url("/resources/img/usMy_3.jpeg");
+    background-image: url("/resources/img/usMy_4.jpeg");
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
@@ -155,7 +155,6 @@ h1 {
     background-position-y: -225px;
     margin-left: 130px;
     background-position-x: 130px;
-    /*border: 4px solid black;*/
     margin-bottom: 100px;
 ;
 
@@ -166,9 +165,9 @@ h1 {
     height: 500px;
     max-width: 90%;
     background-image: url("/resources/img/borderInfo_3.jpeg");
-    background-size: 38%;
-    background-position-y: -330px;
-    background-position-x: 690px;
+    background-size: 37%;
+    background-position-y: -240px;
+    background-position-x: 700px;
     /*border: 4px solid black;*/
     background-repeat: no-repeat;
     background-attachment: fixed;

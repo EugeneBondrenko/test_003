@@ -375,7 +375,9 @@
 	background-image: url("/resources/img/church-4.jpeg");
 }
 .demo-2 .bg-img-5 {
-	background-image: url("/resources/img/church-1.jpeg");
+    background-image: url("/resources/img/logoTitle.jpeg");
+    background-size: 83%;
+    background-repeat: no-repeat;
 }
 
 /* Animations for content elements */
