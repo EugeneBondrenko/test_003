@@ -442,7 +442,7 @@
                     <textarea name="message" id="message" class="form__message" rows="4" placeholder="Message"
                               required=""></textarea>
 
-                        <button type="submit" class="form__button">Button</button>
+                        <button type="submit" class="form__button">Отправить</button>
                     </div>
                 </div>
             </div>
