@@ -22,7 +22,6 @@ body {
     overflow: hidden;
 }
 .codrops-demos a .aboutTitle{
-    /*color: red;*/
 }
 .us_info{
     display: flex;
@@ -30,7 +29,7 @@ body {
 
 .hr__search{
     width: 250px;
-    margin-top: 35px;
+    margin-top: 36px;
 }
 
 .logo_11{
