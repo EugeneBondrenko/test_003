@@ -27,13 +27,7 @@ body {
 .us_info{
     display: flex;
 }
-.search__title{
-    /*margin-top: -30px;*/
-    height: 130px;
-    text-align: center;
-    font-size: 32px;
-    font-weight: 600;
-}
+
 .hr__search{
     width: 250px;
     margin-top: 35px;
@@ -63,7 +57,7 @@ body {
 }
 .codrops-demos a:hover{
     text-decoration: none;
-    /*color: red;*/
+    color: red;
 }
 .codrops-demos a:last-child{
     margin-left: 50px;
@@ -74,19 +68,23 @@ body {
 
 .about__us{
     margin-top: 100px;
-    display: flex;
-    justify-content: center;
+}
+.hr__search{
+    width: 250px;
+    margin-top: 35px;
+}
 
-}
-.about__us__info{
-    max-width: 80%;
+.search__title{
+    /*margin-top: -30px;*/
+    height: 130px;
     text-align: center;
+    font-size: 32px;
+    font-weight: 600;
 }
-.us_info{
-    display: flex;
-    justify-content: center;
-    text-align: center;
+.container__info{
+    width: 80%;
 }
+
 
 
 

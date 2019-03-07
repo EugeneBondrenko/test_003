@@ -21,6 +21,23 @@ body {
     background: linear-gradient(#CEECF5, #58ACFA);
     overflow: hidden;
 }
+.codrops-demos a .aboutTitle{
+    /*color: red;*/
+}
+.us_info{
+    display: flex;
+}
+.search__title{
+    /*margin-top: -30px;*/
+    height: 130px;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 600;
+}
+.hr__search{
+    width: 250px;
+    margin-top: 35px;
+}
 
 .logo_11{
     height: 100%;
@@ -54,8 +71,13 @@ body {
 
 
 /* About Us INFO*/
+
+.about__us{
+    margin-top: 100px;
+}
 .about__us__info{
     max-width: 80%;
+    text-align: center;
 }
 
 

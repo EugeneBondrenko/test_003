@@ -3,7 +3,7 @@
 <head>
     <title>Apocalipsis</title>
     <link rel="stylesheet" href="/resources/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/resources/css/Start_List_Test.css">
+    <link rel="stylesheet" href="/resources/css/STL.css">
     <link rel="stylesheet" href="/resources/css/animate.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <%-- Шрифты --%>
@@ -99,10 +99,10 @@
                      data-slice1-scale="2" data-slice2-scale="1">
                     <div class="sl-slide-inner">
                         <div class="bg-img bg-img-5"></div>
-                        <h2>Acta Non Verba.</h2>
-                        <blockquote><p>I think if you want to eat more meat you should kill it yourself and eat it raw
-                            so that you are not blinded by the hypocrisy of having it processed for you.</p><cite>Margi
-                            Clarke</cite></blockquote>
+                        <%--<h2>Acta Non Verba.</h2>--%>
+                        <%--<blockquote><p>I think if you want to eat more meat you should kill it yourself and eat it raw--%>
+                            <%--so that you are not blinded by the hypocrisy of having it processed for you.</p><cite>Margi--%>
+                            <%--Clarke</cite></blockquote>--%>
                     </div>
                 </div>
             </div><!-- /sl-slider -->
@@ -238,15 +238,15 @@
                 <div class="content__info__1">
                     <h2>ДЛЯ ЧЕГО УМЕР ХРИСТОС?</h2>
                     <p class="information_content">
-                        Sed perspiciatis unde omnis iste natus<br>
-                        error sit voluptatem accusantium<br>
-                        aperiam,eaque ipsa quae ab illo inventore<br>
-                        vitae dicta sunt explicabo.
+                        Бог свят, а мы грешны, поэтому нас <br>
+                        разделяет огромная пропасть. Никакие <br>
+                        попытки заполнить пустоту в душе работой,<br>
+                        отношениями с людьми, деньгами, спортом
                         <br>
                         <br>
-                        Nemo enim ipsam voluptatem quia<br>
-                        aut fugit, sed quia consequuntur magni<br>
-                        dolores eos qui ratione voluptatem sequi nesciunt.
+                        или религией не могут увенчаться успехом,<br>
+                        поскольку причина проблемы — наш отход <br>
+                        от Бога — остается без должного внимания.
                     </p>
                     <button class="bottom">
                         <a href="/theSearchForGod">Смотреть</a>
@@ -261,15 +261,16 @@
                 <div class="content__info__2">
                     <h2>РАНАМИ ЕГО МЫ ИСЦЕЛИЛИСЬ</h2>
                     <p class="information_content">
-                        Sed ut perspiciatis unde omnis iste natus<br>
-                        error sit voluptatem accusantium<br>
-                        aperiam,eaque ipsa quae ab illo inventore<br>
-                        vitae dicta sunt explicabo.
+                        «После своего страдания Он представал перед<br>
+                        этими людьми живым со многими <br>
+                        доказательствами. Иисус являлся им еще в <br>
+                        течение сорока дней и говорил о Божьем <br>
+                        Царстве» (Деян. 1:3).
                         <br>
                         <br>
-                        Nemo enim ipsam voluptatem quia<br>
-                        aut fugit, sed quia consequuntur magni<br>
-                        dolores eos qui ratione voluptatem sequi nesciunt.
+                        Иисус принял на Себя наказание за наш грех,<br>
+                        отдав Свою жизнь на кресте. Воскреснув их <br>
+                        мертвых, Он лишил грех смертоносной силы.
                     </p>
                     <button class="bottom">
                         <a href="/theSearchForGod">Смотреть</a>
@@ -397,7 +398,7 @@
         <div class="row">
             <div class="col-lg-4 d-flex justify-content-center">
                 <div class="contact__info">
-                    <h2>КОНТАКТНАЯ ИНФОРМАЦЫЯ</h2>
+                    <h2>НАШИ КОНТАКТЫ</h2>
                     <h3 class="address">
                         АДРЕС
                     </h3>
