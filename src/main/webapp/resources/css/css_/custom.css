@@ -362,12 +362,14 @@
 	background-repeat: no-repeat;
 }
 .demo-2 .bg-img-2 {
-	background-image: url("/resources/img/logoTitle_2.jpeg");
-	background-size: 80%;
+	background-image: url("/resources/img/logoTitle_3.jpeg");
+	background-size: 85%;
 	background-repeat: no-repeat;
 }
 .demo-2 .bg-img-3 {
-	background-image: url("/resources/img/church-3.jpeg");
+	background-image: url("/resources/img/logoTitle_2.jpeg");
+	background-size: 80%;
+	background-repeat: no-repeat;
 }
 .demo-2 .bg-img-4 {
 	background-image: url("/resources/img/church-4.jpeg");

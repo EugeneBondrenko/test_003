@@ -3,7 +3,7 @@
 <head>
     <title>Apocalipsis</title>
     <link rel="stylesheet" href="/resources/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/resources/css/STL.css">
+    <link rel="stylesheet" href="/resources/css/Start_List_Test.css">
     <link rel="stylesheet" href="/resources/css/animate.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <%-- Шрифты --%>
@@ -77,11 +77,11 @@
                      data-slice1-scale="2" data-slice2-scale="1">
                     <div class="sl-slide-inner">
                         <div class="bg-img bg-img-3"></div>
-                        <h2>Dum spiro, spero.</h2>
-                        <blockquote><p>Thousands of people who say they 'love' animals sit down once or twice a day to
-                            enjoy the flesh of creatures who have been utterly deprived of everything that could make
-                            their lives worth living and who endured the awful suffering and the terror of the
-                            abattoirs.</p><cite>Dame Jane Morris Goodall</cite></blockquote>
+                        <%--<h2>Dum spiro, spero.</h2>--%>
+                        <%--<blockquote><p>Thousands of people who say they 'love' animals sit down once or twice a day to--%>
+                            <%--enjoy the flesh of creatures who have been utterly deprived of everything that could make--%>
+                            <%--their lives worth living and who endured the awful suffering and the terror of the--%>
+                            <%--abattoirs.</p><cite>Dame Jane Morris Goodall</cite></blockquote>--%>
                     </div>
                 </div>
 
@@ -249,7 +249,7 @@
                         dolores eos qui ratione voluptatem sequi nesciunt.
                     </p>
                     <button class="bottom">
-                        <a href="#">learn more</a>
+                        <a href="/theSearchForGod">Смотреть</a>
                     </button>
                 </div>
             </div>
@@ -259,7 +259,7 @@
         <div class="row">
             <div class="col-lg-6">
                 <div class="content__info__2">
-                    <h1>Get Maxium benifites by <br> working with our experts.</h1>
+                    <h2>РАНАМИ ЕГО МЫ ИСЦЕЛИЛИСЬ</h2>
                     <p class="information_content">
                         Sed ut perspiciatis unde omnis iste natus<br>
                         error sit voluptatem accusantium<br>
@@ -272,7 +272,7 @@
                         dolores eos qui ratione voluptatem sequi nesciunt.
                     </p>
                     <button class="bottom">
-                        <a href="#">learn more</a>
+                        <a href="/theSearchForGod">Смотреть</a>
                     </button>
                 </div>
             </div>
@@ -380,7 +380,7 @@
         <div class="row">
             <div class="col-lg-12 d-flex justify-content-center">
                 <div class="contact__us">
-                    <h1 class="contact__title"> CONTACT US</h1>
+                    <h1 class="contact__title"> НАПИСАТЬ НАМ</h1>
                     <div class="hr_s">
                         <hr class="hr_1">
                         </hr>
@@ -397,9 +397,9 @@
         <div class="row">
             <div class="col-lg-4 d-flex justify-content-center">
                 <div class="contact__info">
-                    <h2>CONTACT INFO</h2>
+                    <h2>КОНТАКТНАЯ ИНФОРМАЦЫЯ</h2>
                     <h3 class="address">
-                        ADDRESS
+                        АДРЕС
                     </h3>
                     <div class="address__info">
                         <p>
@@ -418,7 +418,7 @@
                     </div>
 
                     <h3 class="address">
-                        PHONE
+                        ТЕЛЕФОН
                     </h3>
                     <div class="address__info">
                         <p>
@@ -432,7 +432,7 @@
             <div class="col-lg-7 d-flex justify-content-center">
                 <div class="send">
                     <h2 class="send__title">
-                        LEAVE US A MESSAGE
+                        ОТПРАВИТЬ НАМ СООБЩЕНИЕ
                     </h2>
                     <form action="#" class="form">
                         <input type="name" placeholder="Name" class="form__name" required>
@@ -457,7 +457,7 @@
             <div class="col-lg-12 d-flex justify-content-center">
                 <div class="donat__title">
                     <h1>
-                        Donat
+                        ПОЖЕРТВОВАНИЯ
                     </h1>
                 </div>
             </div>
