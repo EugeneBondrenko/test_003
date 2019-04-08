@@ -375,9 +375,9 @@
 	background-image: url("/resources/img/church-4.jpeg");
 }
 .demo-2 .bg-img-5 {
-    background-image: url("/resources/img/logoTitle.jpeg");
-    background-size: 83%;
-    background-repeat: no-repeat;
+	background-image: url("/resources/img/logoTitle.jpeg");
+	background-size: 83%;
+	background-repeat: no-repeat;
 }
 
 /* Animations for content elements */
@@ -564,7 +564,7 @@
 	}
 
 	.demo-2 .sl-slider-wrapper {
-		height: 500px;
+		height: 75%;
 	}
 
 	.demo-2 .sl-slider h2 {

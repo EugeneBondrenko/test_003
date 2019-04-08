@@ -170,7 +170,8 @@ h1 {
     background-position-x: 700px;
     /*border: 4px solid black;*/
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    /*background-attachment: fixed;*/
+    position: fixed;
     /*margin-bottom: 100px;*/
 }
 
@@ -212,6 +213,9 @@ h1 {
     transition: all 0.3s ease;
     cursor: pointer;
     text-transform: uppercase;
+}
+#btn_1{
+    display: none;
 }
 
 .bottom a {

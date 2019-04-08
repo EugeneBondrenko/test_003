@@ -1,0 +1,275 @@
+@media screen and (max-width: 660px){
+    .headers{
+        display: flex;
+        height: 60%;
+        overflow-y: hidden;
+    }
+    .sl-slider{
+        height: 100%;
+    }
+    .demo-2.bg-img-1{
+        height: 100%;
+        width: 100%;
+        /*padding: 0;*/
+    }
+
+
+
+    /*       FEATURE        */
+    .features{
+        height: 41%;
+        width: 100%;
+        margin: 0;
+        overflow-y: hidden;
+    }
+    .usMy{
+        height: 100%;
+    }
+    .mobile-tab{
+        height: 70%;
+    }
+
+    /*       Information block      */
+    .col__information{
+        width: 100%;
+        /*min-height: 400%;*/
+        /*max-height: 420%;*/
+        display: block;
+        justify-content: center;
+        padding: 0;
+        padding-bottom: 40px;
+        overflow-y: hidden;
+    }
+    #col_info{
+        height: auto;
+    }
+    .border__info__1{
+        width: 100%;
+        height: 80%;
+        display: block;
+        justify-content: center;
+        background-image: url("/resources/img/borderInfo.jpg");
+        background-size: 100%;
+        background-attachment: local;
+        background-repeat: no-repeat;
+        background-position-x: 0;
+        background-position-y: -120px;
+        margin: 0;
+        padding: 0;
+    }
+    .border__info__2{
+        min-width: 100%;
+        height: 80%;
+        display: block;
+        justify-content: center;
+        background-image: url("/resources/img/borderInfo_3_1.jpg");
+        background-size: 100%;
+        background-attachment: local;
+        background-repeat: no-repeat;
+        background-position-x: 0;
+        background-position-y: -10px;
+        margin: 0;
+        padding: 0;
+    }
+    .container.row{
+        margin-right: 0;
+        margin-left: 0;
+    }
+    #wrap{
+        flex-wrap: wrap-reverse;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    #wrap_2{
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    /* Col - lg - 6*/
+
+    .col-lg-6{
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    /****************/
+
+
+    .content__info__1{
+        display: block;
+        justify-content: center;
+        width: 100%;
+        /*height: 23%;*/
+        margin: 0;
+        padding: 30px 10px 20px 10px;
+        text-align: center;
+    }
+    .content__info__1 h2, .content__info__2 h2{
+        line-height: 1.6;
+    }
+    .content__info__2{
+        display: block;
+        justify-content: center;
+        width: 100%;
+        /*height: 27%;*/
+        margin: 0;
+        padding: 50px 10px 20px 10px;
+        text-align: center;
+    }
+    .bottom{
+        align-items: center;
+    }
+    #btn_1{
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        margin-left: 25%;
+        margin-top: 8%;
+    }
+    #btn_2{
+        display: none;
+    }
+
+    /* Local Cherch */
+    .cherch{
+        overflow-y: hidden;
+    }
+    .local__cherch{
+        display: block;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+        padding: 0;
+        margin: 0;
+        background-image: url("/resources/img/cityCherch.jpeg");
+        background-size: 480%;
+    }
+    .cherch__title{
+        font-size: 9vmin;
+        width: 100%;
+        text-align: center;
+        padding: 10% 5px 0 5px;
+        height: 30%;
+    }
+    .cherch__info{
+        font-size: 6vmin;
+        width: 100%;
+        text-align: center;
+        line-height: 1.5em;
+        height: 50%;
+        margin: 0;
+        padding: 10% 5px 0 5px;
+    }
+    .local__cherh__btn{
+        margin-top: 20px;
+        padding: 5px 10px 5px 10px;
+        border-radius: 10px;
+        font-size: 4vmin;
+    }
+
+    /* Send My*/
+    .contact{
+        display: block;
+        justify-content: center;
+        height: auto;
+        padding-left: 2%;
+        padding-right: 2%;
+        overflow-y: hidden;
+    }
+.container{
+    display: block;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+}
+.contact__us{
+    width: 100%;
+    padding: 10px 10px;
+}
+.hr_1{
+    justify-content: center;
+    width: 40%;
+    margin-left: 30%;
+}
+.contact__info{
+    width: 100%;
+    padding: 10px 10px;
+    text-align: center;
+}
+.send__title{
+    text-align: center;
+}
+.form{
+    display: block;
+    justify-content: center;
+}
+.form__name{
+    width: 100%;
+    height: 45px;
+    margin-bottom: 10px;
+    text-align: start;
+    padding-left: 15px;
+}
+.form__email{
+    width: 100%;
+    height: 45px;
+    margin-bottom: 10px;
+    text-align: start;
+    padding-left: 15px;
+    margin-left: 0;
+}
+.input_text{
+    display: block;
+    justify-content: center;
+}
+.form__message{
+    width: 100%;
+    height: 30%;
+    padding-top: 10px;
+    padding-left: 15px;
+}
+.form__button{
+    width: 50%;
+    margin-left: 25%;
+}
+
+/* Donat */
+    .donat{
+        overflow-y: hidden;
+        width: 100%;
+        height: auto;
+        background-image: url("/resources/img/mount.jpg");
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: 250%;
+    }
+    .donat__title{
+        width: 100%;
+        margin-top: 7%;
+    }
+
+
+    .contact.container.row{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .contact.container.row.col-lg-6{
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

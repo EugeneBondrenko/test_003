@@ -2,53 +2,109 @@
 <html>
 <head>
     <title>Apocalipsis</title>
+
     <link rel="stylesheet" href="/resources/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/resources/css/STL.css">
+    <link rel="stylesheet" href="/resources/css/Start_List_Test_1.css">
     <link rel="stylesheet" href="/resources/css/animate.css">
+    <%--Menu adaptive--%>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="/resources/css/MenuTestCSS.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <%-- Шрифты --%>
     <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Expletus+Sans:400,400i,500,500i,600,600i,700,700i"
           rel="stylesheet">
-
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
-
-
-    <%--<meta name="viewport" content="width=device-width, initial-scale=1.0">--%>
-    <%--<meta name="description" content="Fullscreen Slit Slider with CSS3 and jQuery" />--%>
-    <%--<meta name="keywords" content="slit slider, plugin, css3, transitions, jquery, fullscreen, autoplay" />--%>
-    <%--<meta name="author" content="Codrops" />--%>
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" type="text/css" href="/resources/css/css_/demo.css"/>
     <link rel="stylesheet" type="text/css" href="/resources/css/css_/style.css"/>
-    <link rel="stylesheet" type="text/css" href="/resources/css/css_/custom.css"/>
+    <link rel="stylesheet" type="text/css" href="/resources/css/css_/custom_1.css"/>
+
     <script type="text/javascript" src="/resources/js/js_/modernizr.custom.79639.js"></script>
     <noscript>
         <link rel="stylesheet" type="text/css" href="css/styleNoJS.css"/>
     </noscript>
 
+    <%--Adaptive--%>
+    <link rel="stylesheet" href="/resources/css/StartListTestAdaptiv_2.css">
+
+
 </head>
 <body>
+
+
+
+
+
 
 <section class="headers">
     <div class="container demo-2">
 
-        <header class="clearfix">
-            <div class="logo">
-            </div>
-            <div class="menu__clear">
-                <nav class="codrops-demos">
-                    <a href="/" methods="GET">Главная</a>
-                    <%--<a class="current-demo" href="#">Темы</a>--%>
-                    <a href="/theSearchForGod" methods="GET">Темы</a>
-                    <a href="/aboutUs"> О нас </a>
-                    <a href="/donat" methods="GET">Пожертвования</a>
-                    <a href="/contacts" methods="GET">Контакты</a>
-                    <a href="#">En</a>
+        <%--<header class="clearfix">--%>
+            <%--<div class="logo">--%>
+            <%--</div>--%>
+            <%--<div class="menu__clear">--%>
+                <%--<nav class="codrops-demos">--%>
+                    <%--<a href="/" methods="GET">Главная</a>--%>
+                    <%--&lt;%&ndash;<a class="current-demo" href="#">Темы</a>&ndash;%&gt;--%>
+                    <%--<a href="/theSearchForGod" methods="GET">Темы</a>--%>
+                    <%--<a href="/aboutUs"> О нас </a>--%>
+                    <%--<a href="/donat" methods="GET">Пожертвования</a>--%>
+                    <%--<a href="/contacts" methods="GET">Контакты</a>--%>
+                    <%--<a href="#">En</a>--%>
+                <%--</nav>--%>
+            <%--</div>--%>
+        <%--</header>--%>
+
+
+
+
+            <div class="bar">
+                <div class="menu_logo_desk">
+                </div>
+                <nav id="desktop">
+                    <ul>
+                        <li><a href="#"></a>Главная</li>
+                        <li><a href="#"></a>Темы</li>
+                        <li><a href="#"></a>О нас</li>
+                        <li><a href="#"></a>Пожертвования</li>
+                        <li><a href="#"></a>Контакты</li>
+                        <li><a href="#"></a>En</li>
+                    </ul>
                 </nav>
             </div>
-        </header>
 
+            <div id="burg">
+                <div class="menu_logo">
+                </div>
+                <a class="bur" href="#">
+                    <span class="bar" id="top"></span>
+                    <span class="bar" id="middle"></span>
+                    <span class="bar" id="bottom"></span>
+                </a>
+            </div>
+
+
+            <div class="mobile-tab">
+                <nav id="mobile">
+                    <ul>
+                        <li><a href="#"></a>Главная</li>
+                        <li><a href="#"></a>Темы</li>
+                        <li><a href="#"></a>О нас</li>
+                        <li><a href="#"></a>Пожертвования</li>
+                        <li><a href="#"></a>Контакты</li>
+                        <li><a href="#"></a>En</li>
+                    </ul>
+                </nav>
+            </div>
+
+
+            <script
+                    src="https://code.jquery.com/jquery-1.8.2.min.js"
+                    integrity="sha256-9VTS8JJyxvcUR+v+RTLTsd0ZWbzmafmlzMmeZO9RFyk="
+                    crossorigin="anonymous"></script>
+            <script src="/resources/js/MenuTestJS.js" type="text/javascript"></script>
 
         <div id="slider" class="sl-slider-wrapper">
 
@@ -200,6 +256,8 @@
 </script>
 
 
+
+
 <section id="features" class="features">
     <div class="container">
         <%--<div class="row">--%>
@@ -224,14 +282,17 @@
 
 <section id="col__information" class="col__information">
     <%--<div class="container d-flex justify-content-around">--%>
-    <div class="container">
+    <div class="container" id="col_info">
 
-        <div class="row">
+        <div class="row" id="wrap">
 
             <div class="col-lg-6">
                 <div class="border__info__1">
                     <%--<img src="/resources/img/borderInfo.jpg">--%>
                 </div>
+                <button class="bottom" id="btn_1">
+                    <a href="/theSearchForGod">Смотреть</a>
+                </button>
             </div>
 
             <div class="col-lg-6 ml-auto">
@@ -248,7 +309,7 @@
                         поскольку причина проблемы — наш отход <br>
                         от Бога — остается без должного внимания.
                     </p>
-                    <button class="bottom">
+                    <button class="bottom" id="btn_2">
                         <a href="/theSearchForGod">Смотреть</a>
                     </button>
                 </div>
@@ -256,7 +317,7 @@
         </div>
 
 
-        <div class="row">
+        <div class="row" id="wrap_2">
             <div class="col-lg-6">
                 <div class="content__info__2">
                     <h2>РАНАМИ ЕГО МЫ ИСЦЕЛИЛИСЬ</h2>
@@ -272,7 +333,7 @@
                         отдав Свою жизнь на кресте. Воскреснув их <br>
                         мертвых, Он лишил грех смертоносной силы.
                     </p>
-                    <button class="bottom">
+                    <button class="bottom" id="btn_2">
                         <a href="/theSearchForGod">Смотреть</a>
                     </button>
                 </div>
@@ -281,6 +342,9 @@
             <div class="col-lg-6 ml-auto">
                 <div class="border__info__2">
                 </div>
+                <button class="bottom" id="btn_1">
+                    <a href="/theSearchForGod">Смотреть</a>
+                </button>
             </div>
         </div>
 
@@ -554,18 +618,29 @@
 </script>
 
 
-<%--<div class="map">--%>
-<%--<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d5431862.265329419!2d31.18286995!3d48.335990499999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sua!4v1526561871008"--%>
-<%--width="100%" height="80%" frameborder="0" style="border:0" allowfullscreen></iframe>--%>
-<%--</div>--%>
 
 
-<%--<slider>--%>
-<%--<slide><p>Slide 1</p></slide>--%>
-<%--<slide><p>Slide 2</p></slide>--%>
-<%--<slide><p>Slide 3</p></slide>--%>
-<%--<slide><p>Slide 4</p></slide>--%>
-<%--</slider>--%>
+
+
+
+
+
+
+
+
+
+<%--&lt;%&ndash;<div class="map">&ndash;%&gt;--%>
+<%--&lt;%&ndash;<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d5431862.265329419!2d31.18286995!3d48.335990499999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sua!4v1526561871008"&ndash;%&gt;--%>
+<%--&lt;%&ndash;width="100%" height="80%" frameborder="0" style="border:0" allowfullscreen></iframe>&ndash;%&gt;--%>
+<%--&lt;%&ndash;</div>&ndash;%&gt;--%>
+
+
+<%--&lt;%&ndash;<slider>&ndash;%&gt;--%>
+<%--&lt;%&ndash;<slide><p>Slide 1</p></slide>&ndash;%&gt;--%>
+<%--&lt;%&ndash;<slide><p>Slide 2</p></slide>&ndash;%&gt;--%>
+<%--&lt;%&ndash;<slide><p>Slide 3</p></slide>&ndash;%&gt;--%>
+<%--&lt;%&ndash;<slide><p>Slide 4</p></slide>&ndash;%&gt;--%>
+<%--&lt;%&ndash;</slider>&ndash;%&gt;--%>
 
 
 </body>

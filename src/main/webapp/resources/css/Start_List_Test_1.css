@@ -163,15 +163,12 @@ h1 {
     height: 500px;
     max-width: 90%;
     background-image: url("/resources/img/borderInfo_3.jpeg");
-    font-size: 35%;
-    /*background-size: 37%;*/
-    /*background-position-y: -240px;*/
-    /*background-position-x: 700px;*/
-    /*!*border: 4px solid black;*!*/
-    /*background-repeat: no-repeat;*/
-    /*!*background-attachment: fixed;*!*/
-    /*position: fixed;*/
-    /*!*margin-bottom: 100px;*!*/
+    background-size: 35%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /*background-position: right;*/
+    background-position-y: -225px;
+    background-position-x: 710px;
 }
 
 .content__info__1 {
