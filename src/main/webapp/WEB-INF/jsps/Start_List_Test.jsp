@@ -27,7 +27,7 @@
     </noscript>
 
     <%--Adaptive--%>
-    <link rel="stylesheet" href="/resources/css/StartListTestAdaptiv_2.css">
+    <link rel="stylesheet" href="/resources/css/StartListTestAdaptiv.css">
 
 
 </head>
@@ -442,7 +442,7 @@
 <section id="contact" class="contact">
     <div class="container">
 
-        <div class="row">
+        <div class="row" id="contact_1">
             <div class="col-lg-12 d-flex justify-content-center">
                 <div class="contact__us">
                     <h1 class="contact__title"> НАПИСАТЬ НАМ</h1>
@@ -459,7 +459,7 @@
             </div>
         </div>
 
-        <div class="row">
+        <div class="row" id="contact_2">
             <div class="col-lg-4 d-flex justify-content-center">
                 <div class="contact__info">
                     <h2>НАШИ КОНТАКТЫ</h2>
@@ -494,7 +494,7 @@
                 </div>
             </div>
 
-            <div class="col-lg-7 d-flex justify-content-center">
+            <div class="col-lg-7 d-flex justify-content-center" id="con_form">
                 <div class="send">
                     <h2 class="send__title">
                         ОТПРАВИТЬ НАМ СООБЩЕНИЕ
@@ -518,8 +518,8 @@
 
 <section id="donat" class="donat">
     <div class="container">
-        <div class="row">
-            <div class="col-lg-12 d-flex justify-content-center">
+        <div class="row donat_id">
+            <div class="col-lg-12 cols_id d-flex justify-content-center">
                 <div class="donat__title">
                     <h1>
                         ПОЖЕРТВОВАНИЯ
@@ -528,8 +528,8 @@
             </div>
         </div>
 
-        <div class="row">
-            <div class="col-lg-12 d-flex justify-content-center">
+        <div class="row donat_id">
+            <div class="col-lg-12 cols_id d-flex justify-content-center">
                 <h3 class="donat__info">
                     Заранее благодарим каждого, кто располагает свое сердце для
                     <br>распространения Божьего царства.
@@ -539,8 +539,8 @@
             </div>
         </div>
 
-        <div class="row">
-            <div class="col-lg-12 d-flex justify-content-center">
+        <div class="row donat_id">
+            <div class="col-lg-12 cols_id d-flex justify-content-center">
                 <form action="/donat">
                     <button type="submit" class="local__donat__btn"> ПОЖЕРТВОВАТЬ</button>
                 </form>
@@ -551,10 +551,10 @@
     </div>
     <div class="gradient">
         <div class="container">
-            <div class="row">
+            <div class="row donat_id" id="gradient_wrap">
 
 
-                <div class="col-lg-4">
+                <div class="col-lg-4 cols_id">
                     <div class="footer__menu">
                         <%--<div class="grad__title">--%>
                         <%--<h5> Cсылки</h5>--%>
@@ -570,36 +570,36 @@
                 </div>
 
 
-                <div class="col-lg-4">
-                    <p class="footer__logo"></p>
+                <div class="col-lg-4 cols_id">
+                    <div class="footer__logo"></div>
                 </div>
 
-                <div class="col-lg-4">
+                <%--<div class="col-lg-4 cols_id">--%>
 
-                    <div class="footer__social">
-                        <div class="social youtube">
-                            <a href="#" target="_blank"><i class="fa fa-youtube fa-2x"></i></a>
-                        </div>
-                        <div class="social facebook">
-                            <a href="#" target="_blank"><i class="fa fa-facebook"></i></a>
-                        </div>
-                        <div class="social google-pluse">
-                            <a href="#" target="_blank"><i class="fa fa-at"></i></a>
-                        </div>
-                        <div class="soc__ingl">
-                            <div class="social En">
-                                <a href="#" target="_blank" class="Engl"> En </a>
-                            </div>
-                        </div>
-                    </div>
+                    <%--<div class="footer__social">--%>
+                        <%--<div class="social youtube">--%>
+                            <%--<a href="#" target="_blank"><i class="fa fa-youtube fa-2x"></i></a>--%>
+                        <%--</div>--%>
+                        <%--<div class="social facebook">--%>
+                            <%--<a href="#" target="_blank"><i class="fa fa-facebook"></i></a>--%>
+                        <%--</div>--%>
+                        <%--<div class="social google-pluse">--%>
+                            <%--<a href="#" target="_blank"><i class="fa fa-at"></i></a>--%>
+                        <%--</div>--%>
+                        <%--<div class="soc__ingl">--%>
+                            <%--<div class="social En">--%>
+                                <%--<a href="#" target="_blank" class="Engl"> En </a>--%>
+                            <%--</div>--%>
+                        <%--</div>--%>
+                    <%--</div>--%>
 
-                </div>
+                <%--</div>--%>
 
             </div>
 
 
-            <div class="row">
-                <div class="col-lg-12 d-flex justify-content-center">
+            <div class="row donat_id">
+                <div class="col-lg-12 cols_id d-flex justify-content-center">
                     <div class="footers">
                         <h6> © 2018 | Все права защищены | Волонтерский проект "Євангелист"</h6>
                     </div>
