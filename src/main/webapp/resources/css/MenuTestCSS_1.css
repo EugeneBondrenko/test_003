@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*body{
+	background: #333;
+	font-family: Arial;
+}*/
+#burg a{
+    display: block;
+    width: 70px;
+    margin-top: 40px;
+}
+#burg{
+    width: 100%;
+    height: 17%;
+    background: linear-gradient(#CEECF5, #58ACFA);
+    /*padding: 7.5px 0 7.5px 0;*/
+    display: flex;
+    justify-content: space-around;
+
+}
+.menu_logo{
+    background-image: url("/resources/img/logo_3.jpeg");
+    width: 300px;
+    height: 100%;
+    background-size: 110%;
+    background-repeat: no-repeat;
+    background-position-y: 45%;
+    background-position-x: -20px;
+}
+span{
+    display: flex;
+    margin: 8px;
+    width: 30px;
+    height: 2px;
+    background: white;
+    z-index: 999;
+}
+.mobile-tab{
+    display: flex;
+    width: 100%;
+    /*background: #58ACFA;*/
+    background: linear-gradient(#58ACFA, #87CEFA);
+    /*flex-direction: column;*/
+    justify-content: center;
+    padding-bottom: 20px;
+    text-align: center;
+}
+#desktop{
+    display: none;
+}
+.mobile-tab a{
+    font-size: 1.9em;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: lighter;
+    letter-spacing: 1px;
+}
+.mobile-tab li{
+    list-style-type: none;
+    /*margin: 5% 15%;*/
+    color: #FFFFFF;
+    font-size: 22px;
+}
+.mobile-tab ul{
+    /*padding: 5% 0;*/
+}
+
+
+@media screen and (min-width: 725px){
+    .menu_logo_desk{
+        background-image: url("/resources/img/logo_3.jpeg");
+        width: 500px;
+        height: 100px;
+        margin-left: 3%;
+        background-size: 100%;
+        background-position-y: 45%;
+        background-repeat: no-repeat;
+        margin-right: 20%;
+    }
+    .mobile-tab,#burg,#mobile{
+        display: none;
+    }
+    .bar{
+        background: linear-gradient(#CEECF5, #58ACFA);
+        height: 15%;
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    .mobile-bar{
+        display: none;
+    }
+    #desktop{
+        display: flex;
+        padding-right: 20px;
+    }
+    a{
+        text-decoration: none;
+        color: #FFFFFF;
+        margin: 0;
+    }
+    ul{
+        display: inline-flex;
+        list-style-type: none;
+        padding: 20px 0 0 0;
+        margin: 0;
+    }
+    li:last-child {
+        color: black;
+        margin:0 20px 0 30px;
+    }
+    li{
+        color: white;
+        font-size: 22px;
+        cursor: pointer;
+        font-weight: lighter;
+        /*background: #232323;*/
+        padding: 20px 10px;
+        text-align: center;
+        /*width: 70px;*/
+        letter-spacing: 1px;
+        transition: all .2s ease-in-out;
+        white-space: nowrap;
+    }
+    li:hover{
+        background: #fff;
+        opacity: .8;
+        box-shadow: inset 1px 1px 5px grey;
+    }
+    li:hover a{
+        color: #2b2b2b;
+    }
+}

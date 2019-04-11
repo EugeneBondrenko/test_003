@@ -1,7 +1,7 @@
 @media screen and (max-width: 660px){
     .headers{
         display: flex;
-        height: 60%;
+        height: 100%;
         overflow-y: hidden;
     }
     .sl-slider{
@@ -11,6 +11,13 @@
         height: 100%;
         width: 100%;
         /*padding: 0;*/
+    }
+    .demo-2.bg-img-1{
+        height: 100%;
+        width: 100%;
+        background-image: url("/resources/img/Title_1.jpg");
+        background-size: 100%;
+        background-repeat: no-repeat;
     }
 
 
@@ -288,6 +295,39 @@
         justify-content: center;
         width: 100%;
         height: auto;
+    }
+    .footer__menu{
+        width: 100%;
+        height: 40%;
+        margin: 0 auto;
+    }
+    .grad__info{
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        display: block;
+        justify-content: center;
+        line-height: 40px;
+    }
+    .grad__info a{
+        font-size: 7vmin;
+    }
+    .grad__info a:hover{
+        cursor: pointer;
+    }
+    #gradient_wrap{
+        flex-wrap: wrap-reverse;
+    }
+    .footer__logo{
+        width: 100%;
+        height: 20%;
+        background-size: 85%;
+        margin: 0;
+        background-position-x: 30px;
+        margin-top: 50px;
+    }
+    .footers{
+        padding: 15px 0;
     }
 
 

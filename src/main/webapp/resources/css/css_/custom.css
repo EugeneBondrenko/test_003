@@ -48,11 +48,11 @@
 }
 
 .demo-2 .bg-img {
-	padding: 200px;
+	/*padding: 200px;*/
 	-webkit-box-sizing: content-box;
 	-moz-box-sizing: content-box;
 	box-sizing: content-box;
-	position: absolute;
+	/*position: absolute;*/
 	top: -200px;
 	left: -200px;
 	width: 100%;
@@ -357,18 +357,24 @@
 }
 
 .demo-2 .bg-img-1 {
+	height: 100%;
+	width: 100%;
 	background-image: url("/resources/img/logoTitle.jpeg");
-	background-size: 83%;
+	background-size: 110%;
 	background-repeat: no-repeat;
 }
 .demo-2 .bg-img-2 {
+	height: 100%;
+	width: 100%;
 	background-image: url("/resources/img/logoTitle_3.jpeg");
-	background-size: 85%;
+	background-size: 110%;
 	background-repeat: no-repeat;
 }
 .demo-2 .bg-img-3 {
+	height: 100%;
+	width: 100%;
 	background-image: url("/resources/img/logoTitle_2.jpeg");
-	background-size: 80%;
+	background-size: 100%;
 	background-repeat: no-repeat;
 }
 .demo-2 .bg-img-4 {
@@ -564,7 +570,7 @@
 	}
 
 	.demo-2 .sl-slider-wrapper {
-		height: 75%;
+		height: 85%;
 	}
 
 	.demo-2 .sl-slider h2 {

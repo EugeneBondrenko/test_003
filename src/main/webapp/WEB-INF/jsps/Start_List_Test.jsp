@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="/resources/css/animate.css">
     <%--Menu adaptive--%>
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <link rel="stylesheet" href="/resources/css/MenuTestCSS.css">
+    <link rel="stylesheet" href="/resources/css/MenuTestCSS_1.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <%-- Шрифты --%>
@@ -19,7 +19,7 @@
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" type="text/css" href="/resources/css/css_/demo.css"/>
     <link rel="stylesheet" type="text/css" href="/resources/css/css_/style.css"/>
-    <link rel="stylesheet" type="text/css" href="/resources/css/css_/custom_1.css"/>
+    <link rel="stylesheet" type="text/css" href="/resources/css/css_/custom.css"/>
 
     <script type="text/javascript" src="/resources/js/js_/modernizr.custom.79639.js"></script>
     <noscript>
