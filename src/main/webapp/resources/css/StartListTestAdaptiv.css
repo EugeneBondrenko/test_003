@@ -40,6 +40,8 @@
     }
     .mobile-tab{
         height: 70%;
+        position: absolute;
+        z-index: 100;
     }
 
     /*       Information block      */

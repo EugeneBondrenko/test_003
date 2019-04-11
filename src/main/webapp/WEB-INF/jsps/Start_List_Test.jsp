@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="/resources/css/animate.css">
     <%--Menu adaptive--%>
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <link rel="stylesheet" href="/resources/css/MenuTestCSS_1.css">
+    <link rel="stylesheet" href="/resources/css/MenuTestCSS.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <%-- Шрифты --%>
@@ -27,7 +27,7 @@
     </noscript>
 
     <%--Adaptive--%>
-    <link rel="stylesheet" href="/resources/css/StartListTestAdaptiv.css">
+    <link rel="stylesheet" href="/resources/css/StartListTestAdaptiv_3.css">
 
 
 </head>

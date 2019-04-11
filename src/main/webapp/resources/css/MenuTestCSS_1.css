@@ -61,7 +61,10 @@ span{
     list-style-type: none;
     /*margin: 5% 15%;*/
     color: #FFFFFF;
-    font-size: 22px;
+    font-size: 28px;
+}
+.mobile-tab li:hover{
+    cursor: pointer;
 }
 .mobile-tab ul{
     /*padding: 5% 0;*/

@@ -7,16 +7,18 @@
     .sl-slider{
         height: 100%;
     }
-    .demo-2.bg-img-1{
-        height: 100%;
-        width: 100%;
-        /*padding: 0;*/
-    }
-    .demo-2.bg-img-1{
+    .demo-2 .bg-img-1{
         height: 100%;
         width: 100%;
         background-image: url("/resources/img/Title_1.jpg");
-        background-size: 100%;
+        background-size: 125%;
+        background-repeat: no-repeat;
+    }
+    .demo-2 .bg-img-2{
+        height: 100%;
+        width: 100%;
+        background-image: url("/resources/img/Title_2.jpg");
+        background-size: 125%;
         background-repeat: no-repeat;
     }
 
@@ -24,16 +26,22 @@
 
     /*       FEATURE        */
     .features{
-        height: 41%;
+        height: 100%;
         width: 100%;
         margin: 0;
         overflow-y: hidden;
     }
     .usMy{
         height: 100%;
+        width: 100%;
+        background-image: url("/resources/img/usMy_5.jpeg");
+        background-size: 400%;
+        background-repeat: no-repeat;
     }
     .mobile-tab{
-        height: 70%;
+        height: auto;
+        position: absolute;
+        z-index: 100;
     }
 
     /*       Information block      */
