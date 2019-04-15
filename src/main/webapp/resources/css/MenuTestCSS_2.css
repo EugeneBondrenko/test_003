@@ -8,8 +8,8 @@
 }*/
 #burg a{
     display: block;
-    width: 70px;
-    margin-top: 40px;
+    width: 65px;
+    /*margin-top: 40px;*/
 }
 #burg{
     width: 100%;
@@ -18,7 +18,12 @@
     /*padding: 7.5px 0 7.5px 0;*/
     display: flex;
     justify-content: space-around;
-
+}
+.menu_bur .menu_bur_adap{
+    height: 100%;
+    padding-top: 9.5vmin;
+    padding-bottom: 9vmin;
+    padding-left: 2vmin;
 }
 .menu_logo{
     background-image: url("/resources/img/logo_3.jpeg");
@@ -44,7 +49,7 @@ span{
     background: linear-gradient(#58ACFA, #87CEFA);
     /*flex-direction: column;*/
     justify-content: center;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
     text-align: center;
 }
 #desktop{
@@ -61,7 +66,7 @@ span{
     list-style-type: none;
     /*margin: 5% 15%;*/
     color: #FFFFFF;
-    font-size: 28px;
+    font-size: 4vmin;
 }
 .mobile-tab li:hover{
     cursor: pointer;

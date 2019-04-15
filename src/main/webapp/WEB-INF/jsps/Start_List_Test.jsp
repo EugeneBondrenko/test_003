@@ -4,11 +4,11 @@
     <title>Apocalipsis</title>
 
     <link rel="stylesheet" href="/resources/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/resources/css/Start_List_Test_1.css">
+    <link rel="stylesheet" href="/resources/css/Start_List_Test.css">
     <link rel="stylesheet" href="/resources/css/animate.css">
     <%--Menu adaptive--%>
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <link rel="stylesheet" href="/resources/css/MenuTestCSS.css">
+    <link rel="stylesheet" href="/resources/css/MenuTestCSS_2.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <%-- Шрифты --%>
@@ -27,7 +27,7 @@
     </noscript>
 
     <%--Adaptive--%>
-    <link rel="stylesheet" href="/resources/css/StartListTestAdaptiv_3.css">
+    <link rel="stylesheet" href="/resources/css/StartListTestAdaptive.css">
 
 
 </head>
@@ -40,60 +40,42 @@
 
 <section class="headers">
     <div class="container demo-2">
-
-        <%--<header class="clearfix">--%>
-            <%--<div class="logo">--%>
-            <%--</div>--%>
-            <%--<div class="menu__clear">--%>
-                <%--<nav class="codrops-demos">--%>
-                    <%--<a href="/" methods="GET">Главная</a>--%>
-                    <%--&lt;%&ndash;<a class="current-demo" href="#">Темы</a>&ndash;%&gt;--%>
-                    <%--<a href="/theSearchForGod" methods="GET">Темы</a>--%>
-                    <%--<a href="/aboutUs"> О нас </a>--%>
-                    <%--<a href="/donat" methods="GET">Пожертвования</a>--%>
-                    <%--<a href="/contacts" methods="GET">Контакты</a>--%>
-                    <%--<a href="#">En</a>--%>
-                <%--</nav>--%>
-            <%--</div>--%>
-        <%--</header>--%>
-
-
-
-
             <div class="bar">
                 <div class="menu_logo_desk">
                 </div>
                 <nav id="desktop">
                     <ul>
-                        <li><a href="#"></a>Главная</li>
-                        <li><a href="#"></a>Темы</li>
-                        <li><a href="#"></a>О нас</li>
-                        <li><a href="#"></a>Пожертвования</li>
-                        <li><a href="#"></a>Контакты</li>
+                        <li><a href="/">Главная</a></li>
+                        <li><a href="/theSearchForGod" methods="GET">Темы</a></li>
+                        <li><a href="/aboutUs">О нас</a></li>
+                        <li><a href="/donat"> Пожертвования </a></li>
+                        <li><a href="/contacts"> Контакты </a></li>
                         <li><a href="#"></a>En</li>
                     </ul>
                 </nav>
             </div>
 
-            <div id="burg">
+            <div class="menu_bur" id="burg">
                 <div class="menu_logo">
                 </div>
+                <div class="menu_bur_adap">
                 <a class="bur" href="#">
                     <span class="bar" id="top"></span>
                     <span class="bar" id="middle"></span>
                     <span class="bar" id="bottom"></span>
                 </a>
+                </div>
             </div>
 
 
             <div class="mobile-tab">
                 <nav id="mobile">
                     <ul>
-                        <li><a href="#"></a>Главная</li>
-                        <li><a href="#"></a>Темы</li>
-                        <li><a href="#"></a>О нас</li>
-                        <li><a href="#"></a>Пожертвования</li>
-                        <li><a href="#"></a>Контакты</li>
+                        <li><a href="/">Главная</a></li>
+                        <li><a href="/theSearchForGod" methods="GET">Темы</a></li>
+                        <li><a href="/aboutUs">О нас</a></li>
+                        <li><a href="/donat"> Пожертвования </a></li>
+                        <li><a href="/contacts"> Контакты </a></li>
                         <li><a href="#"></a>En</li>
                     </ul>
                 </nav>
@@ -105,6 +87,8 @@
                     integrity="sha256-9VTS8JJyxvcUR+v+RTLTsd0ZWbzmafmlzMmeZO9RFyk="
                     crossorigin="anonymous"></script>
             <script src="/resources/js/MenuTestJS.js" type="text/javascript"></script>
+
+
 
         <div id="slider" class="sl-slider-wrapper">
 
@@ -521,9 +505,9 @@
         <div class="row donat_id">
             <div class="col-lg-12 cols_id d-flex justify-content-center">
                 <div class="donat__title">
-                    <h1>
+                    <p>
                         ПОЖЕРТВОВАНИЯ
-                    </h1>
+                    </p>
                 </div>
             </div>
         </div>

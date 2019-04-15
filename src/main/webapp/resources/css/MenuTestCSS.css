@@ -6,10 +6,20 @@
 	background: #333;
 	font-family: Arial;
 }*/
+.menu_bur{
+	height: 18%;
+}
+/*.menu_bur_adap{*/
+/*height: 100%;*/
+/*padding: 25% 0;*/
+/*}*/
+.menu_bur.menu_bur_adap{
+	height: 50%;
+}
 #burg a{
 	display: block;
 	width: 70px;
-	margin-top: 40px;
+	/*margin-top: 40px;*/
 }
 #burg{
 	width: 100%;
@@ -19,6 +29,9 @@
 	display: flex;
 	justify-content: space-around;
 
+}
+.bur{
+	height: 50%;
 }
 .menu_logo{
 	background-image: url("/resources/img/logo_3.jpeg");
@@ -61,7 +74,7 @@ span{
 	list-style-type: none;
 	/*margin: 5% 15%;*/
 	color: #FFFFFF;
-	font-size: 28px;
+	font-size: 4vmin;
 }
 .mobile-tab li:hover{
 	cursor: pointer;
