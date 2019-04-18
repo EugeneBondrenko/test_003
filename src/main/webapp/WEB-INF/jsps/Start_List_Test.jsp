@@ -27,7 +27,7 @@
     </noscript>
 
     <%--Adaptive--%>
-    <link rel="stylesheet" href="/resources/css/StartListTestAdaptive.css">
+    <link rel="stylesheet" href="/resources/css/StartListTestAdaptives.css">
 
 
 </head>
@@ -40,6 +40,8 @@
 
 <section class="headers">
     <div class="container demo-2">
+
+
             <div class="bar">
                 <div class="menu_logo_desk">
                 </div>
@@ -560,22 +562,22 @@
 
                 <%--<div class="col-lg-4 cols_id">--%>
 
-                    <%--<div class="footer__social">--%>
-                        <%--<div class="social youtube">--%>
-                            <%--<a href="#" target="_blank"><i class="fa fa-youtube fa-2x"></i></a>--%>
-                        <%--</div>--%>
-                        <%--<div class="social facebook">--%>
-                            <%--<a href="#" target="_blank"><i class="fa fa-facebook"></i></a>--%>
-                        <%--</div>--%>
-                        <%--<div class="social google-pluse">--%>
-                            <%--<a href="#" target="_blank"><i class="fa fa-at"></i></a>--%>
-                        <%--</div>--%>
-                        <%--<div class="soc__ingl">--%>
-                            <%--<div class="social En">--%>
-                                <%--<a href="#" target="_blank" class="Engl"> En </a>--%>
-                            <%--</div>--%>
-                        <%--</div>--%>
-                    <%--</div>--%>
+                <%--<div class="footer__social">--%>
+                <%--<div class="social youtube">--%>
+                <%--<a href="#" target="_blank"><i class="fa fa-youtube fa-2x"></i></a>--%>
+                <%--</div>--%>
+                <%--<div class="social facebook">--%>
+                <%--<a href="#" target="_blank"><i class="fa fa-facebook"></i></a>--%>
+                <%--</div>--%>
+                <%--<div class="social google-pluse">--%>
+                <%--<a href="#" target="_blank"><i class="fa fa-at"></i></a>--%>
+                <%--</div>--%>
+                <%--<div class="soc__ingl">--%>
+                <%--<div class="social En">--%>
+                <%--<a href="#" target="_blank" class="Engl"> En </a>--%>
+                <%--</div>--%>
+                <%--</div>--%>
+                <%--</div>--%>
 
                 <%--</div>--%>
 

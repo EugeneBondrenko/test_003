@@ -4,16 +4,15 @@ body {
 }
 
 .headers{
-    height: 500px;
-    /*background-color: #b3d7ff;*/
-    padding-bottom: 0px;
-    /*background-color: blue;*/
+   overflow-y: hidden;
+    height: auto;
 }
 .container{
     min-width: 100%;
     padding-left: 0px;
     padding-right: 0px;
     overflow-x: hidden;
+    overflow-y: hidden;
 }
 .menu__search{
     display: flex;

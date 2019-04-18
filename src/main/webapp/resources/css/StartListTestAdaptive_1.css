@@ -340,7 +340,8 @@
         margin-top: 50px;
     }
     .footers{
-        padding: 15px 0;
+        padding: 15px 5px;
+        text-align: center;
     }
 
 
@@ -394,6 +395,32 @@
     }
     .search__global__title{
         text-align: center;
+    }
+    .search__wiches p{
+        text-align: center;
+    }
+
+
+
+
+
+    /**********************************************************/
+    /*    About Us Title*/
+    /**********************************************************/
+
+
+
+    /*Headers*/
+    #AboutUas_id{
+        height: auto;
+        margin-bottom: 9%;
+    }
+    .about__us{
+        margin-top: 20px;
+    }
+    .hr__search{
+        margin-top: 8%;
+        background-color: #4e555b;
     }
 
 

@@ -3,16 +3,22 @@ body {
     font-family: cursive;
 }
 
+/*.headers{*/
+    /*!*height: 95px;*!*/
+    /*padding-bottom: 0px;*/
+    /*margin-bottom: 50px;*/
+    /*overflow-y: hidden;*/
+/*}*/
 .headers{
-    height: 95px;
-    padding-bottom: 0px;
-    margin-bottom: 50px;
+overflow-y: hidden;
+height: auto;
 }
 .container{
     min-width: 100%;
     padding-left: 0px;
     padding-right: 0px;
     overflow-x: hidden;
+    overflow-y: hidden;
 }
 .menu__search{
     display: flex;
@@ -77,6 +83,10 @@ body {
 }
 .about__us__info{
     max-width: 80%;
+    text-align: center;
+}
+.container__info{
+    width: 90%;
     text-align: center;
 }
 

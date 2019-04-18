@@ -356,49 +356,65 @@
 
 
 
-    /*!*Headers*!*/
-    /*#SFG_headers{*/
-        /*height: auto;*/
-        /*margin-bottom: 9%;*/
-    /*}*/
-    /*.search__img{*/
-        /*height: 50%;*/
-        /*background-position-y: 100px;*/
-        /*background-size: 200%;*/
-        /*background-color: #3b5998;*/
-    /*}*/
-    /*.hr__search{*/
-        /*width: 50%;*/
-        /*margin-left: 25%;*/
-        /*margin-top: 5%;*/
-        /*margin-bottom: 10%;*/
-    /*}*/
-    /*.container__info{*/
-        /*min-width: 90%;*/
-    /*}*/
-    /*.info__1{*/
-        /*text-align: center;*/
-    /*}*/
-    /*.search__video{*/
-        /*height: 40%;*/
-        /*margin: 10% 0;*/
-    /*}*/
-    /*.search__video iframe{*/
-        /*height: 100%;*/
-    /*}*/
+    /*Headers*/
+    #SFG_headers{
+        height: auto;
+        margin-bottom: 9%;
+    }
+    .search__img{
+        height: 50%;
+        background-position-y: 100px;
+        background-size: 200%;
+        background-color: #3b5998;
+    }
+    .hr__search{
+        width: 50%;
+        margin-left: 25%;
+        margin-top: 5%;
+        margin-bottom: 10%;
+    }
+    .container__info{
+        min-width: 90%;
+    }
+    .info__1{
+        text-align: center;
+    }
+    .search__video{
+        height: 40%;
+        margin: 10% 0;
+    }
+    .search__video iframe{
+        height: 100%;
+    }
 
 
 
-    /*!*Search Message*!*/
-    /*.send{*/
-        /*width: 90%;*/
-    /*}*/
-    /*.search__global__title{*/
-        /*text-align: center;*/
-    /*}*/
-    /*.search__wiches p{*/
-        /*text-align: center;*/
-    /*}*/
+    /*Search Message*/
+    .send{
+        width: 90%;
+    }
+    .search__global__title{
+        text-align: center;
+    }
+    .search__wiches p{
+        text-align: center;
+    }
+
+
+
+
+
+    /**********************************************************/
+    /*    About Us Title*/
+    /**********************************************************/
+
+
+
+    /*Headers*/
+    #AboutUas_id{
+        height: auto;
+        margin-bottom: 9%;
+    }
 
 
 
