@@ -85,9 +85,10 @@ h1 {
     margin-bottom: 80px;
 }
 .usMy{
-    height: 110%;
+    height: 100%;
     width: 100%;
-    background-image: url("/resources/img/usMy_5.jpeg");
+    /*background-image: url("https://drive.google.com/uc?export=view&id=1VlAmY_adzeFk-CevCZO8DyPabE9JPdis");*/
+    background-image: url("/resources/img/us_my.jpg");
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
@@ -148,7 +149,7 @@ h1 {
     height: 500px;
     width: 500px;
     margin-top: 90px;
-    background-image: url("/resources/img/borderInfo.jpg");
+    background-image: url("https://drive.google.com/uc?export=view&id=1OnNaQ3VdxfwWQxVba2LkjPXrSNGCMsmR");
     background-size: 37%;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -162,7 +163,7 @@ h1 {
     width: 500px;
     height: 500px;
     max-width: 90%;
-    background-image: url("/resources/img/borderInfo_3.jpeg");
+    background-image: url("https://drive.google.com/uc?export=view&id=1OBa4uCpHOnamlZcvmZxuQoISHYgfQ06m");
     background-size: 35%;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -249,13 +250,14 @@ h1 {
 
 hr {
     /*border: none; !* Убираем границу *!*/
-    width: 80px;
+    /*width: 80px;*/
     background-color: #5882FA; /* Цвет линии */
     color: #5882FA; /* Цвет линии для IE6-7 */
     height: 3px; /* Толщина линии */
 }
 .hr_s{
-    justify-content: center;
+    width: 20%;
+    margin-left: 40%;
 }
 
 .contact__info h2 {
@@ -297,6 +299,7 @@ hr {
 .form__name {
     width: 300px;
     height: 40px;
+    margin-bottom: 15px;
     border-radius: 3px;
     /*border: none;*/
     padding-left: 15px;
@@ -309,6 +312,7 @@ hr {
 .form__email {
     width: 300px;
     height: 40px;
+    margin-bottom: 15px;
     border-radius: 3px;
     /*border: none;*/
     padding-left: 15px;
@@ -329,6 +333,7 @@ hr {
     border-radius: 3px;
     /*border: none;*/
     padding-left: 15px;
+    padding-top: 3px;
     font-size: 16px;
     font-family: sans-serif;
     color: #424242;
@@ -360,6 +365,7 @@ hr {
     padding-bottom: 80px;
     overflow-x: hidden;
     overflow-y: hidden;
+    /*background-image: url("https://drive.google.com/uc?export=view&id=1uAzdAVQoWwk6fCwm2hCpKhQKFqRAwPXy");*/
     background-image: url("/resources/img/cityCherch.jpeg");
     background-size: 100%;
     background-repeat: no-repeat;
@@ -403,7 +409,7 @@ hr {
 .donat {
     /*width: 100%;*/
     height: 700px;
-    background-image: url("/resources/img/mount.jpg");
+    background-image: url("https://drive.google.com/uc?export=view&id=1Pwb9oh5ii9DUpgnza7cQHpoqwGo6a-lL");
     background-attachment: fixed;
     background-position: center;
     background-size: 100%;
@@ -462,7 +468,8 @@ hr {
 }
 .footer__logo{
     margin-top: 100px;
-    background-image: url("/resources/img/evangeli_logo.png");
+    /*background-image: url("https://drive.google.com/uc?export=view&id=10miYODmE3YI242wDQkYscNWvXs4CQBic");*/
+    background-image: url("/resources/img/tail_logo.png");
     background-size: 80%;
     background-repeat: no-repeat;
     height: 100px;

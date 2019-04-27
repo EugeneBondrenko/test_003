@@ -4,7 +4,7 @@ body {
 }
 
 .headers{
-   overflow-y: hidden;
+    overflow-y: hidden;
     height: auto;
 }
 .container{
@@ -26,7 +26,7 @@ body {
 .logo_11{
     height: 100%;
     width: 60%;
-    background-image: url("/resources/img/logo_3.jpeg");
+    background-image: url("https://drive.google.com/uc?export=view&id=1e-N_cw8PQ_spBQMk1BQ8PP0JG0mDdVVr");
     background-repeat: no-repeat;
     background-size: 82%;
     background-position-y: -35px;
@@ -63,7 +63,7 @@ body {
 .search__img{
     min-width: 100%;
     height: 350px;
-    background-image: url("/resources/img/cr.jpeg");
+    background-image: url("https://drive.google.com/uc?export=view&id=1ZLDzx_M3Nn-MC2wKZUgjyPq8WuhMpxzK");
     background-size: 100%;
     background-repeat: no-repeat;
     /*background-position-x: 100px;*/
@@ -72,8 +72,9 @@ body {
 }
 
 .hr__search{
-    width: 250px;
-    margin-top: 35px;
+    width: 20%;
+    margin-top: 45px;
+    margin-left: 40%;
 }
 
 .search__title{
@@ -192,7 +193,7 @@ body {
 }
 .footer__logo{
     margin-top: 200px;
-    background-image: url("/resources/img/evangeli_logo.png");
+    background-image: url("https://drive.google.com/uc?export=view&id=10miYODmE3YI242wDQkYscNWvXs4CQBic");
     background-size: 80%;
     background-repeat: no-repeat;
     height: 100px;

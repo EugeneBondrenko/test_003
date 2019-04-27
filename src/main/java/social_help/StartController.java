@@ -24,7 +24,7 @@ public class StartController {
 
     @RequestMapping(value = "/theSearchForGod", method = RequestMethod.GET)
     public ModelAndView yourGod(){
-        modelAndView = new ModelAndView("TheSearchForGod");
+        modelAndView = new ModelAndView("WhatIsEaster");
         return modelAndView;
     }
 

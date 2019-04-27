@@ -9,7 +9,7 @@
 <html>
 <head>
     <title>AboutUs</title>
-    <link rel="stylesheet" href="/resources/css/AboutUs.css">
+    <link rel="stylesheet" href="/resources/css/AB_2.css">
     <link rel="stylesheet" href="/resources/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -24,7 +24,7 @@
           rel="stylesheet">
 
     <%--Adaptive--%>
-    <link rel="stylesheet" href="/resources/css/StartListTestAdaptive_1.css">
+    <link rel="stylesheet" href="/resources/css/StartListTestAdaptive_01.css">
 </head>
 <body>
 
@@ -42,7 +42,7 @@
                     <li><a href="/aboutUs">О нас</a></li>
                     <li><a href="/donat"> Пожертвования </a></li>
                     <li><a href="/contacts"> Контакты </a></li>
-                    <li><a href="#"></a>En</li>
+                    <%--<li><a href="#"></a>En</li>--%>
                 </ul>
             </nav>
         </div>
@@ -68,7 +68,7 @@
                     <li><a href="/aboutUs">О нас</a></li>
                     <li><a href="/donat"> Пожертвования </a></li>
                     <li><a href="/contacts"> Контакты </a></li>
-                    <li><a href="#"></a>En</li>
+                    <%--<li><a href="#"></a>En</li>--%>
                 </ul>
             </nav>
         </div>
@@ -134,7 +134,7 @@
             </div>
         </div>
 
-    </div>
+    <%--</div>--%>
     </div>
 
 
@@ -168,11 +168,10 @@
 
 
 
+
         </div>
-
-
     </div>
-    </div>
+    <%--</div>--%>
 </section>
 
 <script src="/resources/js/wow-min.js"></script>

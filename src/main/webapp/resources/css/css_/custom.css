@@ -359,30 +359,41 @@
 .demo-2 .bg-img-1 {
 	height: 100%;
 	width: 100%;
-	background-image: url("/resources/img/logoTitle.jpeg");
-	background-size: 110%;
+	/*background-image: url("https://drive.google.com/uc?export=view&id=1oSlWR0vgrOL7rKMGCqerJQ-1q4b9Elsm");*/
+	background-image: url("/resources/img/title_st_1.jpg");
+	background-size: 125%;
 	background-repeat: no-repeat;
 }
 .demo-2 .bg-img-2 {
 	height: 100%;
 	width: 100%;
-	background-image: url("/resources/img/logoTitle_3.jpeg");
-	background-size: 110%;
+	/*background-image: url("https://drive.google.com/uc?export=view&id=1GXu6r1bJfuFPBIea6EaUz_xNmr0FUTxq");*/
+	background-image: url("/resources/img/title_st_2.jpg");
+	background-size: 125%;
 	background-repeat: no-repeat;
 }
 .demo-2 .bg-img-3 {
 	height: 100%;
 	width: 100%;
-	background-image: url("/resources/img/logoTitle_2.jpeg");
-	background-size: 100%;
+	/*background-image: url("https://drive.google.com/uc?export=view&id=1rLAe-w0WwI3sQfVZVlKqVpXi8HmHoiKw");*/
+	background-image: url("/resources/img/title_st_3.jpg");
+	background-size: 125%;
 	background-repeat: no-repeat;
 }
 .demo-2 .bg-img-4 {
-	background-image: url("/resources/img/church-4.jpeg");
+	height: 100%;
+	width: 100%;
+	/*background-image: url("https://drive.google.com/uc?export=view&id=1GXu6r1bJfuFPBIea6EaUz_xNmr0FUTxq");*/
+	background-image: url("/resources/img/title_st_4.jpg");
+	background-size: 125%;
+	background-repeat: no-repeat;
 }
 .demo-2 .bg-img-5 {
-	background-image: url("/resources/img/logoTitle.jpeg");
-	background-size: 83%;
+	height: 100%;
+	width: 100%;
+	/*background-image: url("https://drive.google.com/uc?export=view&id=1rLAe-w0WwI3sQfVZVlKqVpXi8HmHoiKw");*/
+	background-image: url("/resources/img/title_st_5.jpg");
+	background-size: 125%;
 	background-repeat: no-repeat;
 }
 

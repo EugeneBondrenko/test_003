@@ -8,14 +8,14 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>Поиск Бога</title>
+    <title>Пошук Бога</title>
     <link rel="stylesheet" href="/resources/css/TheSearchForGod.css">
     <link rel="stylesheet" href="/resources/css/bootstrap.min.css">
 
 
     <%--Menu adaptive--%>
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <link rel="stylesheet" href="/resources/css/MenuTestCSS_2.css">
+    <link rel="stylesheet" href="/resources/css/MenuTestCSS.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -25,7 +25,7 @@
 
 
     <%--Adaptive--%>
-    <link rel="stylesheet" href="/resources/css/StartListTestAdaptives.css">
+    <link rel="stylesheet" href="/resources/css/StartListTestAdaptive_01.css">
 </head>
 <body>
 
@@ -43,7 +43,7 @@
                     <li><a href="/aboutUs">О нас</a></li>
                     <li><a href="/donat"> Пожертвования </a></li>
                     <li><a href="/contacts"> Контакты </a></li>
-                    <li><a href="#"></a>En</li>
+                    <%--<li><a href="#"></a>En</li>--%>
                 </ul>
             </nav>
         </div>
@@ -69,7 +69,7 @@
                     <li><a href="/aboutUs">О нас</a></li>
                     <li><a href="/donat"> Пожертвования </a></li>
                     <li><a href="/contacts"> Контакты </a></li>
-                    <li><a href="#"></a>En</li>
+                    <%--<li><a href="#"></a>En</li>--%>
                 </ul>
             </nav>
         </div>
@@ -81,21 +81,6 @@
                 crossorigin="anonymous"></script>
         <script src="/resources/js/MenuTestJS.js" type="text/javascript"></script>
 
-
-        <%--<div class="menu__search">--%>
-        <%--<div class="logo_11">--%>
-        <%--</div>--%>
-        <%--<div class="col-lg-7 d-flex justify-content-center">--%>
-        <%--<nav class="codrops-demos">--%>
-        <%--<a href="/" methods="GET">Главная</a>--%>
-        <%--<a href="/theSearchForGod" methods="GET">Темы</a>--%>
-        <%--<a href="/aboutUs" methods="GET"> О нас </a>--%>
-        <%--<a href="/donat" methods="GET">Пожертвования</a>--%>
-        <%--<a href="/contacts" methods="GET">Контакты</a>--%>
-        <%--<a href="#">En</a>--%>
-        <%--</nav>--%>
-        <%--</div>--%>
-        <%--</div>--%>
     </div>
     <div class="search__img">
     </div>
@@ -285,7 +270,7 @@
             <div class="row donat_id">
                 <div class="col-lg-12 cols_id d-flex justify-content-center">
                     <div class="footers">
-                        <h6> © 2018 | Все права защищены | Волонтерский проект "Євангелист"</h6>
+                        <h6> © 2018 | Всі права захищені | Волонтерський проект "Євангеліст"</h6>
                     </div>
                 </div>
             </div>
