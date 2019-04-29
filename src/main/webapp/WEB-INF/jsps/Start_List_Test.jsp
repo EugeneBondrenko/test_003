@@ -1,16 +1,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>Євангеліст</title>
-
-    <link rel="stylesheet" type="text/css" href="./resources/css/bootstrap.min.css">
-
-    <%--<link th:href="@{/webjars/bootstrap/3.3.7/css/bootstrap.min.css}"--%>
-    <%--href="http://cdn.jsdelivr.net/webjars/bootstrap/3.3.7/css/bootstrap.min.css"--%>
-    <%--rel="stylesheet" media="screen" />--%>
-
-    <link rel="stylesheet" type="text/css" href="./resources/css/Start_List_Test_1.css">
-    <link rel="stylesheet" href="./resources/css/animate.css">
+    <title>Євангелист</title>
 
     <%-- Шрифты --%>
     <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i" rel="stylesheet">
@@ -18,23 +9,28 @@
           rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
     <link rel="shortcut icon" href="../favicon.ico">
-    <link rel="stylesheet" type="text/css" href="./resources/css/css_/demo_1.css"/>
-    <link rel="stylesheet" type="text/css" href="./resources/css/css_/style.css"/>
-    <link rel="stylesheet" type="text/css" href="./resources/css/css_/custom_1.css"/>
 
-    <script type="text/javascript" src="./resources/js/js_/modernizr.custom.79639.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="/resources/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="/resources/css/Start_List_Test_001.css">
+    <link rel="stylesheet" href="/resources/css/animate.css">
+    <link rel="stylesheet" type="text/css" href="/resources/css/css_/demo_1.css"/>
+    <link rel="stylesheet" type="text/css" href="/resources/css/css_/style.css"/>
+    <link rel="stylesheet" type="text/css" href="/resources/css/css_/custom_01.css"/>
+
+    <script type="text/javascript" src="/resources/js/js_/modernizr.custom.79639.js"></script>
     <noscript>
-        <link rel="stylesheet" type="text/css" href="./resources/css/css_/styleNoJS.css"/>
+        <link rel="stylesheet" type="text/css" href="/resources/css/css_/styleNoJS.css"/>
     </noscript>
 
     <%--Menu adaptive--%>
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="./resources/css/MenuTestCSS_2.css">
+    <link rel="stylesheet" type="text/css" href="/resources/css/MenuTestCSS_2.css">
     <link rel="stylesheet" type="text/css"
           href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <%--Adaptive--%>
-    <link rel="stylesheet" type="text/css" href="./resources/css/StartListTestAdaptive_02.css">
+    <link rel="stylesheet" type="text/css" href="/resources/css/StartListTestAdaptive_01.css">
 
 
 </head>
@@ -50,9 +46,12 @@
                 <ul>
                     <li><a href="./">Головна</a></li>
                     <li><a href="./theSearchForGod" methods="GET">Теми</a></li>
-                    <li><a href="./aboutUs">Про нас</a></li>
-                    <li><a href="./donat"> Пожертвування </a></li>
-                    <li><a href="./contacts"> Контакти </a></li>
+<%--                    <li><a href="./aboutUs">Про нас</a></li>--%>
+                    <li><a href="#">Про нас</a></li>
+<%--                    <li><a href="./donat"> Пожертвування </a></li>--%>
+                    <li><a href="#"> Пожертвування </a></li>
+<%--                    <li><a href="./contacts"> Контакти </a></li>--%>
+                    <li><a href="#"> Контакти </a></li>
                     <%--<li><a href="#"></a>En</li>--%>
                 </ul>
             </nav>
@@ -76,9 +75,12 @@
                 <ul>
                     <li><a href="./">Головна</a></li>
                     <li><a href="./theSearchForGod" methods="GET">Теми</a></li>
-                    <li><a href="./aboutUs">Про нас</a></li>
-                    <li><a href="./donat"> Пожертвуання </a></li>
-                    <li><a href="./contacts"> Контакти </a></li>
+                    <%--                    <li><a href="./aboutUs">Про нас</a></li>--%>
+                    <li><a href="#">Про нас</a></li>
+                    <%--                    <li><a href="./donat"> Пожертвування </a></li>--%>
+                    <li><a href="#"> Пожертвування </a></li>
+                    <%--                    <li><a href="./contacts"> Контакти </a></li>--%>
+                    <li><a href="#"> Контакти </a></li>
                     <%--<li><a href="#"></a>En</li>--%>
                 </ul>
             </nav>
@@ -256,9 +258,9 @@
     <div class="container" id="col_info">
 
         <div class="row" id="wrap">
-
             <div class="col-lg-6">
                 <div class="border__info__1">
+                    <a href="./theSearchForGod"></a>
                     <%--<img src="/resources/img/borderInfo.jpg">--%>
                 </div>
                 <button class="bottom" id="btn_1">
@@ -268,17 +270,20 @@
 
             <div class="col-lg-6 ml-auto">
                 <div class="content__info__1">
-                    <h2>ДЛЯ ЧЕГО УМЕР ХРИСТОС?</h2>
+                    <h2>ЧТО ТАКОЕ ПАСХА?</h2>
                     <p class="information_content">
-                        Бог свят, а мы грешны, поэтому нас <br>
-                        разделяет огромная пропасть. Никакие <br>
-                        попытки заполнить пустоту в душе работой,<br>
-                        отношениями с людьми, деньгами, спортом
-                        <br>
-                        <br>
-                        или религией не могут увенчаться успехом,<br>
-                        поскольку причина проблемы — наш отход <br>
-                        от Бога — остается без должного внимания.
+                        Еврейское слово «песах», которое мы
+                        произносим как Пасха, переводится
+                        как: перейти что-то или перепрыгнуть
+                        через какое-то препятствие, пройти мимо.
+                        Если мы захотим узнать, что же такое Пасха,
+                        то нам необходимо обратиться к Библии.
+                        Откроем книгу Исход, 12 главу стихи с 1 по 13,
+                        и прочтём, что же Бог говорит: «И сказал
+                        Господь Моисею и Аарону в земле Египетской,
+                        говоря: месяц сей да будет у вас началом
+                        месяцев; первым да будет он у вас между
+                        месяцами года. Скажите всему обществу Израильтян.
                     </p>
                     <button class="bottom" id="btn_2">
                         <a href="./theSearchForGod">Смотреть</a>
@@ -291,18 +296,13 @@
         <div class="row" id="wrap_2">
             <div class="col-lg-6">
                 <div class="content__info__2">
-                    <h2>РАНАМИ ЕГО МЫ ИСЦЕЛИЛИСЬ</h2>
+                    <h2>ДЛЯ ЧЕГО ВОСКРЕС ХРИСТОС</h2>
                     <p class="information_content">
-                        «После своего страдания Он представал перед<br>
-                        этими людьми живым со многими <br>
-                        доказательствами. Иисус являлся им еще в <br>
-                        течение сорока дней и говорил о Божьем <br>
-                        Царстве» (Деян. 1:3).
-                        <br>
-                        <br>
-                        Иисус принял на Себя наказание за наш грех,<br>
-                        отдав Свою жизнь на кресте. Воскреснув их <br>
-                        мертвых, Он лишил грех смертоносной силы.
+                        Празднование Пасхи, да и вообще христианство не имело бы никакого смысла, если бы Христос не воскрес. И тем не менее,
+                        большинство людей, которые празднуют Пасху, на самом деле не верят в воскресение Христа. Из года
+                        в год говорят: «Христос воскрес! Воистину воскрес!» — при этом продолжают жить, как будто Он не
+                        воскрес на самом деле, а всё их празднование сводится к застолью и нарядной одежде. Как будто
+                        Христос пострадал, умер и воскрес просто для того, чтобы добавить нам еще один праздник.
                     </p>
                     <button class="bottom" id="btn_2">
                         <a href="./theSearchForGod">Смотреть</a>
@@ -318,6 +318,37 @@
                 </button>
             </div>
         </div>
+
+
+
+        <div class="row" id="wrap">
+            <div class="col-lg-6">
+                <div class="border__info__3">
+                    <%--<img src="/resources/img/borderInfo.jpg">--%>
+                </div>
+                <button class="bottom" id="btn_1">
+                    <a href="/theSearchForGod">Смотреть</a>
+                </button>
+            </div>
+
+            <div class="col-lg-6 ml-auto">
+                <div class="content__info__1">
+                    <h2>КАК ВОСКРЕСНУТ УМЕРШИЕ?</h2>
+                    <p class="information_content">
+                        Все мы в день празднования Пасхи возвещаем, что Христос Воскрес. В наши дни это выражение часто воспринимается лишь
+                        как традиция, но эти слова берут свое начало с того момента, когда свидетели воскресения сообщали своим друзьям и
+                        знакомым о том, что видели Иисуса Христа воскресшего. Из истории мы знаем, что многие из них умерли мученической
+                        смертью, но не отреклись от своего утверждения, что видели и общались с Ним после Его воскресения. Захотели бы
+                        умереть за то, в чем уверены?
+                    </p>
+                    <button class="bottom" id="btn_2">
+                        <a href="/theSearchForGod">Смотреть</a>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+
     </div>
     </div>
 </section>
@@ -344,7 +375,7 @@
 
         <div class="row">
             <div class="col-lg-12 d-flex justify-content-center">
-                <form action="./contacts">
+                <form action="#">
                     <button type=" " class="local__cherh__btn wow zoomIn" data-wow-duration="2s">
                         ЛОКАЛЬНЫЕ ЦЕРКВИ
                     </button>
@@ -385,8 +416,7 @@
                     </h3>
                     <div class="address__info">
                         <p>
-                            xxxx California St,<br>
-                            San Francisco, CA xxxxx
+                            м. Київ,<br> вул. Вуликова, 24
                         </p>
                     </div>
 
@@ -395,7 +425,7 @@
                     </h3>
                     <div class="address__info">
                         <p>
-                            xxx@company.com
+                            evangelist.kiev.ua@gmail.com
                         </p>
                     </div>
 
@@ -404,7 +434,7 @@
                     </h3>
                     <div class="address__info">
                         <p>
-                            +x xxx xxx xxxx
+                            +3 8098 791 4390
                         </p>
                     </div>
 
@@ -424,7 +454,7 @@
                     <textarea name="message" id="message" class="form__message" rows="4" placeholder="Повідомлення"
                               required=""></textarea>
 
-                        <button type="submit" class="form__button">Надіслати</button>
+                        <button type="submit" class="form__button" id="title_send_button">Надіслати</button>
                     </div>
                 </div>
             </div>
@@ -439,7 +469,7 @@
             <div class="col-lg-12 cols_id d-flex justify-content-center">
                 <div class="donat__title">
                     <p>
-                        ПОЖЕРТВУВАННЯ
+                        ПОЖЕРТВОВАНИЯ
                     </p>
                 </div>
             </div>
@@ -451,15 +481,15 @@
                     Заранее благодарим каждого, кто располагает свое сердце для
                     <br>распространения Божьего царства.
                     <br>
-                    Мы — сражаемся вместе!
+                    Будем сеять семя вместе!
                 </h3>
             </div>
         </div>
 
         <div class="row donat_id">
             <div class="col-lg-12 cols_id d-flex justify-content-center">
-                <form action="./donat">
-                    <button type="submit" class="local__donat__btn"> ПОЖЕРТВУВАТИ</button>
+                <form action="#">
+                    <button type="submit" class="local__donat__btn"> ПОЖЕРТВОВАТЬ</button>
                 </form>
             </div>
 
@@ -479,9 +509,9 @@
                         <div class="grad__info">
                             <a href="./"> Головна </a><br>
                             <a href="./theSearchForGod"> Теми </a><br>
-                            <a href="./aboutUs"> Про нас </a><br>
-                            <a href="./donat"> Пожертвування </a><br>
-                            <a href="./contacts"> Контакти </a><br>
+                            <a href="#"> Про нас </a><br>
+                            <a href="#"> Пожертвування </a><br>
+                            <a href="#"> Контакти </a><br>
                         </div>
                     </div>
                 </div>
